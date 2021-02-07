@@ -1,0 +1,3 @@
+# hacklahoma2021
+
+Our tool scrapes Twitter for tweets with the keywords "musk", "elon musk", or "tesla", cleans the tweets of any links and special characters, then runs a sentiment analyzer to give each tweet a sentiment score. The sentiment scores are averaged to determine the overall sentiment towards Elon Musk and Tesla on Twitter. The date and time of tweets that the scraper pulls can be easily adjusted within the code and defaults to real-time. Currently, by subtracting the previous day's average sentiment from the current day's sentiment, we provide a prediction on whether or not Tesla stock will rise, fall, or stay neutral.
